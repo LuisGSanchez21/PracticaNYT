@@ -1,0 +1,81 @@
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .dialog-box {
+    background: white;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 90vh; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dialog-close {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dialog-content {
+    flex-grow: 1; 
+    overflow-y: auto; 
+    margin-bottom: 10px; 
+    padding-right: 10px; 
+  }
+  
+  .buscador {
+    margin-bottom: 10px;
+  }
+  
+  #search-article {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .search-results {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .search-results li {
+    margin-bottom: 10px;
+  }
+  
+  .search-results a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .search-results a:hover {
+    text-decoration: underline;
+  }
+  
+  .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

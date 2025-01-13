@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.category-item {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}

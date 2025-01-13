@@ -1,0 +1,31 @@
+.navRow {
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    gap: 40px; 
+}
+
+li {
+    margin: 0; 
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 16px;
+    padding: 5px 10px; 
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
